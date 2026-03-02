@@ -1,0 +1,6 @@
+
+[
+ { "name":"iPhone 15 Pro","price":"$1299","image":"images/iphone.png"},
+ { "name":"iPhone 14","price":"$899","image":"images/iphone.png"},
+ { "name":"iPhone 13","price":"$699","image":"images/iphone.png"}
+]

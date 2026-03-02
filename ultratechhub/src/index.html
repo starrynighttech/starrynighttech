@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starry Night Mobiles</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- Infinite Smoke Background -->
+<div id="smoke-bg">
+<video class="smoke-video" id="smoke1" autoplay muted playsinline>
+<source src="assets/Smoke.mp4" type="video/mp4">
+</video>
+
+<video class="smoke-video" id="smoke2" autoplay muted playsinline>
+<source src="assets/Smoke.mp4" type="video/mp4">
+</video>
+</div>
+
+<div id="loader"><div class="loader-logo">Starry Night</div></div>
+
+<canvas id="particles"></canvas>
+<div class="cursor"></div>
+
+<header>
+<h3>Starry Night</h3>
+<div class="header-icons">
+<button onclick="scrollToShop()">Shop</button>
+<div class="cart-icon">🛒</div>
+</div>
+</header>
+
+<!-- HERO -->
+<section id="hero" class="section reveal">
+<div class="hero-text">
+<h1>Experience the Future</h1>
+<p>Premium smartphones engineered for performance.</p>
+</div>
+
+<div id="phone-container">
+<div id="phone">
+<img src="images/iphone.png" alt="phone">
+</div>
+</div>
+</section>
+
+<!-- DAILY SALE -->
+<section id="shop" class="section reveal">
+<h2>Daily Sale</h2>
+<div class="sale-grid"></div>
+</section>
+
+<!-- CART PANEL -->
+<div id="cart-panel">
+<h3>Your Cart</h3>
+<div id="cart-items"></div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
