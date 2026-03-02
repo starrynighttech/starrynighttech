@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone X",
+    "price": 500,
+    "image": "/images/iPhone-x.png",
+    "stock": 5
+  },
+  {
+    "id": 2,
+    "name": "iPhone 13",
+    "price": 900,
+    "image": "/images/iPhone-13.png",
+    "stock": 3
+  }
+]
