@@ -1,9 +1,0 @@
-[build]
-  publish = "dist"
-  command = "npm run build"
-
-[build.environment]
-  PAYNOW_INTEGRATION_ID = ""
-  PAYNOW_INTEGRATION_KEY = ""
-  PAYNOW_RESULT_URL = ""
-  PAYNOW_RETURN_URL = ""
